@@ -1,0 +1,37 @@
+======================================================================
+SENTIMENT ANALYSIS REPORT
+======================================================================
+Source CSV: reports_csv_files\sentiment_debug_output.csv
+Text column used: text
+Rows analyzed: 10
+
+Sentiment distribution:
+  - positive:      0 rows (0.0%)
+  - neutral :      1 rows (10.0%)
+  - negative:      9 rows (90.0%)
+
+Polarity score: -0.9
+  closer to 1 = more positive, closer to -1 = more negative
+
+Average text length by sentiment:
+  - negative: 53.56 avg chars, 9.89 avg words
+  - neutral : 75.0 avg chars, 14.0 avg words
+
+Top keywords by sentiment:
+  - positive: 
+  - neutral : sons(1), why(1), couldn(1), put(1), releases(1), already(1), bought(1)
+  - negative: responded(1), going(1), sooo(1), sad(1), will(1), miss(1), here(1), san(1), diego(1), boss(1)
+
+Agreement with original labels: 30.0%
+
+Sample examples:
+
+POSITIVE EXAMPLES:
+
+NEUTRAL EXAMPLES:
+  1.  Sons of ****, why couldn`t they put them on the releases we already bought
+
+NEGATIVE EXAMPLES:
+  1.  I`d have responded, if I were going
+  2.  Sooo SAD I will miss you here in San Diego!!!
+  3. my boss is bullying me...

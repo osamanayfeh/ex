@@ -1,0 +1,43 @@
+======================================================================
+SENTIMENT ANALYSIS REPORT
+======================================================================
+Source CSV: reports_csv_files\sentiment_debug_output.csv
+Text column used: text
+Rows analyzed: 200
+
+Sentiment distribution:
+  - positive:      7 rows (3.5%)
+  - neutral :     14 rows (7.0%)
+  - negative:    179 rows (89.5%)
+
+Polarity score: -0.86
+  closer to 1 = more positive, closer to -1 = more negative
+
+Average text length by sentiment:
+  - negative: 66.95 avg chars, 12.73 avg words
+  - neutral : 92.07 avg chars, 16.64 avg words
+  - positive: 80.29 avg chars, 15.14 avg words
+
+Top keywords by sentiment:
+  - positive: think(2), there(2), nice(2), haha(2), celtics(1), lakers(1), rematch(1), sounds(1), better(1), don(1)
+  - neutral : power(2), girl(2), hair(2), into(2), late(2), got(2), cholla(2), done(2), out(2), haha(2)
+  - negative: going(12), like(11), can(11), all(10), love(10), get(10), one(10), day(10), today(9), its(9)
+
+Agreement with original labels: 32.5%
+
+Sample examples:
+
+POSITIVE EXAMPLES:
+  1.  a celtics-lakers rematch sounds better don`t you think? lol
+  2.  SWEEEEET - San Fran is awesome!!!!  Love it there
+  3.  cool i wear black most of the time when i go out
+
+NEUTRAL EXAMPLES:
+  1.  Sons of ****, why couldn`t they put them on the releases we already bought
+  2. Went to sleep and there is a power cut in Noida  Power back up not working too
+  3. The girl in the hair salon asked me 'Shall I trim your eyebrows!' How old do I feel?
+
+NEGATIVE EXAMPLES:
+  1.  I`d have responded, if I were going
+  2.  Sooo SAD I will miss you here in San Diego!!!
+  3. my boss is bullying me...

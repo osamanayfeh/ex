@@ -1,0 +1,242 @@
+{
+  "csv_path": "reports_csv_files\\sentiment_debug_output.csv",
+  "text_column_used": "text",
+  "total_rows_analyzed": 200,
+  "sentiment_counts": {
+    "negative": 179,
+    "neutral": 14,
+    "positive": 7
+  },
+  "sentiment_percentages": {
+    "negative": 89.5,
+    "neutral": 7.0,
+    "positive": 3.5
+  },
+  "average_lengths": {
+    "negative": {
+      "char_count": 66.95,
+      "word_count": 12.73
+    },
+    "neutral": {
+      "char_count": 92.07,
+      "word_count": 16.64
+    },
+    "positive": {
+      "char_count": 80.29,
+      "word_count": 15.14
+    }
+  },
+  "polarity_score": -0.86,
+  "agreement_with_labels_percent": 32.5,
+  "top_words_by_sentiment": {
+    "positive": [
+      {
+        "word": "think",
+        "count": 2
+      },
+      {
+        "word": "there",
+        "count": 2
+      },
+      {
+        "word": "nice",
+        "count": 2
+      },
+      {
+        "word": "haha",
+        "count": 2
+      },
+      {
+        "word": "celtics",
+        "count": 1
+      },
+      {
+        "word": "lakers",
+        "count": 1
+      },
+      {
+        "word": "rematch",
+        "count": 1
+      },
+      {
+        "word": "sounds",
+        "count": 1
+      },
+      {
+        "word": "better",
+        "count": 1
+      },
+      {
+        "word": "don",
+        "count": 1
+      },
+      {
+        "word": "lol",
+        "count": 1
+      },
+      {
+        "word": "sweeeeet",
+        "count": 1
+      },
+      {
+        "word": "san",
+        "count": 1
+      },
+      {
+        "word": "fran",
+        "count": 1
+      },
+      {
+        "word": "awesome",
+        "count": 1
+      }
+    ],
+    "neutral": [
+      {
+        "word": "power",
+        "count": 2
+      },
+      {
+        "word": "girl",
+        "count": 2
+      },
+      {
+        "word": "hair",
+        "count": 2
+      },
+      {
+        "word": "into",
+        "count": 2
+      },
+      {
+        "word": "late",
+        "count": 2
+      },
+      {
+        "word": "got",
+        "count": 2
+      },
+      {
+        "word": "cholla",
+        "count": 2
+      },
+      {
+        "word": "done",
+        "count": 2
+      },
+      {
+        "word": "out",
+        "count": 2
+      },
+      {
+        "word": "haha",
+        "count": 2
+      },
+      {
+        "word": "nite",
+        "count": 2
+      },
+      {
+        "word": "plan",
+        "count": 2
+      },
+      {
+        "word": "sons",
+        "count": 1
+      },
+      {
+        "word": "why",
+        "count": 1
+      },
+      {
+        "word": "couldn",
+        "count": 1
+      }
+    ],
+    "negative": [
+      {
+        "word": "going",
+        "count": 12
+      },
+      {
+        "word": "like",
+        "count": 11
+      },
+      {
+        "word": "can",
+        "count": 11
+      },
+      {
+        "word": "all",
+        "count": 10
+      },
+      {
+        "word": "love",
+        "count": 10
+      },
+      {
+        "word": "get",
+        "count": 10
+      },
+      {
+        "word": "one",
+        "count": 10
+      },
+      {
+        "word": "day",
+        "count": 10
+      },
+      {
+        "word": "today",
+        "count": 9
+      },
+      {
+        "word": "its",
+        "count": 9
+      },
+      {
+        "word": "out",
+        "count": 9
+      },
+      {
+        "word": "really",
+        "count": 8
+      },
+      {
+        "word": "good",
+        "count": 8
+      },
+      {
+        "word": "know",
+        "count": 8
+      },
+      {
+        "word": "don",
+        "count": 8
+      }
+    ]
+  },
+  "example_rows": {
+    "positive": [
+      " a celtics-lakers rematch sounds better don`t you think? lol",
+      " SWEEEEET - San Fran is awesome!!!!  Love it there",
+      " cool i wear black most of the time when i go out",
+      " Nice to see you tweeting!  It`s Sunday 10th May and we`re celebrating Mother`s Day here today. So be nice to yer Mom",
+      " Congrats!  I cuss like that in a matter of minutes, But didn`t know until now there is a reward for it."
+    ],
+    "neutral": [
+      " Sons of ****, why couldn`t they put them on the releases we already bought",
+      "Went to sleep and there is a power cut in Noida  Power back up not working too",
+      "The girl in the hair salon asked me 'Shall I trim your eyebrows!' How old do I feel?",
+      "Bah a coworker ran into work late and her bag smacked into my knee  it really hurts now",
+      "mannnn..... _ got an iphone!!! im jealous....  http://bit.ly/NgnaR"
+    ],
+    "negative": [
+      " I`d have responded, if I were going",
+      " Sooo SAD I will miss you here in San Diego!!!",
+      "my boss is bullying me...",
+      " what interview! leave me alone",
+      "http://www.dothebouncy.com/smf - some shameless plugging for the best Rangers forum on earth"
+    ]
+  }
+}

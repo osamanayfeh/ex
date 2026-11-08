@@ -1,0 +1,133 @@
+{
+  "csv_path": "reports_csv_files\\sentiment_debug_output.csv",
+  "text_column_used": "text",
+  "total_rows_analyzed": 10,
+  "sentiment_counts": {
+    "negative": 9,
+    "neutral": 1
+  },
+  "sentiment_percentages": {
+    "negative": 90.0,
+    "neutral": 10.0
+  },
+  "average_lengths": {
+    "negative": {
+      "char_count": 53.56,
+      "word_count": 9.89
+    },
+    "neutral": {
+      "char_count": 75.0,
+      "word_count": 14.0
+    }
+  },
+  "polarity_score": -0.9,
+  "agreement_with_labels_percent": 30.0,
+  "top_words_by_sentiment": {
+    "positive": [],
+    "neutral": [
+      {
+        "word": "sons",
+        "count": 1
+      },
+      {
+        "word": "why",
+        "count": 1
+      },
+      {
+        "word": "couldn",
+        "count": 1
+      },
+      {
+        "word": "put",
+        "count": 1
+      },
+      {
+        "word": "releases",
+        "count": 1
+      },
+      {
+        "word": "already",
+        "count": 1
+      },
+      {
+        "word": "bought",
+        "count": 1
+      }
+    ],
+    "negative": [
+      {
+        "word": "responded",
+        "count": 1
+      },
+      {
+        "word": "going",
+        "count": 1
+      },
+      {
+        "word": "sooo",
+        "count": 1
+      },
+      {
+        "word": "sad",
+        "count": 1
+      },
+      {
+        "word": "will",
+        "count": 1
+      },
+      {
+        "word": "miss",
+        "count": 1
+      },
+      {
+        "word": "here",
+        "count": 1
+      },
+      {
+        "word": "san",
+        "count": 1
+      },
+      {
+        "word": "diego",
+        "count": 1
+      },
+      {
+        "word": "boss",
+        "count": 1
+      },
+      {
+        "word": "bullying",
+        "count": 1
+      },
+      {
+        "word": "what",
+        "count": 1
+      },
+      {
+        "word": "interview",
+        "count": 1
+      },
+      {
+        "word": "leave",
+        "count": 1
+      },
+      {
+        "word": "alone",
+        "count": 1
+      }
+    ]
+  },
+  "example_rows": {
+    "positive": [],
+    "neutral": [
+      " Sons of ****, why couldn`t they put them on the releases we already bought"
+    ],
+    "negative": [
+      " I`d have responded, if I were going",
+      " Sooo SAD I will miss you here in San Diego!!!",
+      "my boss is bullying me...",
+      " what interview! leave me alone",
+      "http://www.dothebouncy.com/smf - some shameless plugging for the best Rangers forum on earth"
+    ]
+  }
+}
